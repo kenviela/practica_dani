@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2021 by kenviela (http://jsbin.com/qiyahab/5/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<html>
+ <head>
+     <title>Pizza</title>
+     <style>
+       .masa{
+                  
+         width:350px;
+         height:350px;
+         background:#ffc947;
+         border-radius: 350px;
+         border: 15px solid #ffb26b;
+         position: relative;
+         left: 150px;
+         top: 210px;
+         z-index: -1; 
+         background: radial-gradient(circle, red 35%, transparent 0), #ffc947;
+         background: -moz-radial-gradient(circle, red 35%, transparent 0), #ffc947; 
+         background: -webkit-radial-gradient(circle, red 35%, transparent 0), #ffc947;
+         background-size: 96px 95px;
+       }
+       
+       .porción{
+         width:230px;
+         height:230px;
+         background:#ffc947;
+         border: 11px solid #ffb26b;
+         border-radius: 1000px 50px 100px 50px;
+         position: relative;
+         left: 140px;
+         top: -310px;
+         transform: rotate(28deg);
+         background: radial-gradient(circle, red 35%, transparent 0), #ffc947;
+         background: -moz-radial-gradient(circle, red 35%, transparent 0), #ffc947; 
+         background: -webkit-radial-gradient(circle, red 35%, transparent 0), #ffc947;
+         background-size: 86px 85px;
+         
+       }
+       
+       .plato{
+         width:450px;
+         height:450px;
+         background:#511b21;
+         border-radius: 550px;
+         position:relative;
+         left:120px;
+         top: -455px;
+         z-index:-2;
+         position:relative;
+       }
+       
+       .pizza{
+         position:relative;
+         left:200px; 
+       }
+     </style>
+  
+
+ </head>
+ <body>
+  <div class="pizza">
+    <div class= "masa"></div>
+    <div class= "porción"></div>
+    <div class= "plato"></div>
+  </div>
+ </body>
+</html>
+

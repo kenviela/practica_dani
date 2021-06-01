@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2021 by kenviela (http://jsbin.com/kowucod/5/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<html>
+<head>
+  <title>Dany's Restaurant</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
+  
+  <style>
+     body {
+        font-family: Original Surfer, cursive;
+        margin:0 auto;
+        max-width: 600px;
+        background: url("https://http2.mlstatic.com/D_NQ_NP_715534-MCO27717204844_072018-O.jpg");
+        background-size:100%;    
+    }
+      
+    div{
+      
+      background-size: cover;
+      height:200px;
+      position: relative;
+      margin:10px;
+      border-radius:12px;
+      background-position:right;
+    } 
+    
+    .first{
+      
+      background-image: url("https://cocina-casera.com/wp-content/uploads/2011/10/masa-pizza-casera.jpg");
+      
+    }
+  
+    .second {
+      
+      background-image: url("https://www.recetasdesbieta.com/wp-content/uploads/2018/10/lasagna-original..jpg");
+    }
+    
+    .dessert {
+      
+      background-image: url("https://elandante.com.mx/wp-content/uploads/2021/01/receta-3.jpg")
+    }
+    
+     h1 {
+      
+       color:#e8e6d9;
+       text-align:center;
+       font-family: 'Berkshire Swash', cursive;
+       font-size:54px;
+       margin:60px 0 0 0;
+      
+    }
+    
+    h2{
+      
+      text-align:center;
+      font-family: 'Indie Flower', cursive;
+      color: #f3eae8;
+      font-size:34px;
+      margin: 0 0 70px 0;
+    }
+    
+    p{
+      color: rgba(255,255,255,1);
+      background: rgba(0,0,0,0.6);
+      background: -webkit-linear-gradient(bottom,rgba(0,0,0,1), rgba(0,0,0,.4));
+      background: -moz-linear-gradient(bottom,rgba(0,0,0,1), rgba(0,0,0,.4));
+      text-align:justify;
+      line-height:20px;
+      position: absolute;
+      bottom:0;
+      margin:0;
+      font-family: 'Indie Flower', cursive;
+      font-size:23px;
+      padding:10px;
+      line-height:24px;
+      
+    }
+    
+    .price{
+      float:right;
+      
+    }
+    
+   @media (max-width: 500px){
+    h1 {
+      font-size:50px;
+      margin-top:50px;
+      line-height:30px;
+     }
+    h2{
+      font-size:27px;
+      margin: 30px 0 40px 0;
+    }
+    div{
+      margin:30px 15px 0 15px;  
+    }
+  
+    p{
+      font-size:26px;
+      line-height:24px;
+    }
+  
+    small{
+      font-size:19px;  
+    }
+  }
+    
+    
+  </style>  
+</head>
+<body>
+  <h1>Dany's Restaurant</h1>
+  <h2>En la Dorada, Caldas.</h2>
+  <div class= "first">
+    <p> 
+       <small>
+      PIZZA<span class="price">$35.000</span><br />
+      deliciosa pizza de queso 
+      con pollo y jamón, o la más rica de 
+      las pizza la mixta, hay tantos tipos que no sabras cuál escoger.
+      </small>
+    </p>
+  </div>
+  <div class="second">
+    <p>
+      <small>
+      LASAÑA<span class="price">$18.000</span><br />
+      Deliciosa lasaña ya sea de pollo o de carne,
+      o ha lo mejor mixta siempre tiene un sabor incomparable.
+      </small>
+    </p>
+  </div>
+  <div class="dessert">
+    <p>
+      <small>
+      PASTEL DE CHOCOLATE<span class="price">$20.000</span><br />
+      Delicioso con difenrentes capas de chocolate que cubren la 
+      torta que también es de chocolate deliciosa
+      </small>
+    </p>
+  </div>
+</body>
+</html>
